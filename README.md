@@ -51,7 +51,6 @@ dualsteer/
 │   ├── evaluate.py              # Evaluation utilities
 │   └── utils.py                 # Helper functions
 ├── main.py                      # Entry point
-├── requirements.txt             # Dependencies
 └── README.md                    # This file
 ```
 
