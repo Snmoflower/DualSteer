@@ -33,7 +33,7 @@ class DualSteerConfig:
     """
     
     # Stage 1: Attention Steering Parameters
-    attn_c: float = 0.5  # Scaling coefficient for attention bias
+    attn_c: float = 1.0  # Scaling coefficient for attention bias
     
     # Prefill phase configuration
     attn_prefill_layers: Optional[List[int]] = None  # Layers for prefill steering
