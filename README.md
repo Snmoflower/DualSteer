@@ -70,7 +70,7 @@ python main.py \
     --model_path /path/to/llava-v1.5-7b \
     --train_samples_file data/train_samples.csv \
     --train_image_dir data/images \
-    --attn_c 0.5 \
+    --attn_c 1.0 \
     --act_strength 1.0 \
     --attn_prefill_layers 7-31 \
     --act_layers 7-31 \
@@ -97,7 +97,7 @@ python main.py \
 
 | Parameter | Description | Default |
 |-----------|-------------|---------|
-| `--attn_c` | Attention steering coefficient | 0.5 |
+| `--attn_c` | Attention steering coefficient | 1.0 |
 | `--attn_prefill_layers` | Layers for prefill steering | "7-31" |
 | `--attn_decode_layers` | Layers for decode steering | "none" |
 | `--attn_decode_mode` | Decode mode: none/first_only/first_n/all | "none" |
