@@ -56,14 +56,14 @@ dualsteer/
 
 ## Quick Start
 
-### 1. Prepare Training Data
+### 1. Prepare Calibration Data
 
 Prepare a CSV file with the following columns:
 - `image_path`: Relative path to the image
 - `jailbreak_query`: The query/prompt text
 - `jailbroken_claude`: Boolean indicating if the model was jailbroken (True) or refused (False)
 
-### 2. Train and Evaluate
+### 2. Calibrate and Evaluate
 
 ```bash
 python main.py \
